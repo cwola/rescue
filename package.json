@@ -1,0 +1,37 @@
+{
+  "name": "@cwola/rescue",
+  "version": "0.0.1",
+  "description": "Laravel's rescue helper function.",
+  "main": "src/rescue",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint --ext js --quiet ./src/*",
+    "test": "node ./test/test.js"
+  },
+  "author": "r-jimbo",
+  "keywords": [
+    "cwola",
+    "rescue",
+    "try",
+    "catch",
+    "util"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwola/rescue.git"
+  },
+  "exports": {
+    "import": "./src/rescue.mjs",
+    "require": "./src/rescue.cjs"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-google": "0.14.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
